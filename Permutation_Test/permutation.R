@@ -4,7 +4,7 @@ library(Matrix)
 
 permutation.p<-function(B=10^3, N, t, p, r, target=c(1:r), x,z,y, ncores=4) {
   # y reads in the outcome, which is a t by N matrix. 
-  # t is the level-1 sample size, such as the number of measurements
+  # t is the level-1 sample size, such as the number of occasions.
   # N is the level-2 sample size, such as the number of individuals.
   # p reads in the number of fixed effects.
   # r reads in the number of random effects.
